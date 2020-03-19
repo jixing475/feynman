@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo Themes</title>
+    <link>/</link>
+    <description>Recent content on Hugo Themes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 19 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>不要用网络来消遣</title>
+      <link>/post/don-t-use-the-internet-for-entertainment/</link>
+      <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/don-t-use-the-internet-for-entertainment/</guid>
+      <description>何为生活而不是生存  这些致瘾的网站只有在真空中(那些你没有明确安排想要杀掉的时间)才能活跃: 如果你没有在某一个特定时段给自己安排任务, 这些网站总是一种有诱惑力的选择. 如果你在自由时间有高质量的事情去做, 这些网站对你的注意力的控制就会减弱.
+  一些安排好的爱好为这些时间提供了充足的养料
+  智力系统可以进行长时间的高强度工作, 他只需要变化而不是停止
+ 白领工人 在一个办公室有一份工作, 一周只要工作一定小时的数, 就能得到最够的薪水来支撑一个家庭.
+这个新的阶级, 忽略了随之而来的活出充实的机会?
+ How To Live On 24 Hours A Day “尽管不太喜欢自己一天的生活(认为需要熬过去的一天), 但仍然把 8:30–17:30 这段时间当做是这一天, 之前的 10 小时和之后的 7 小时知识前奏和尾声”.
+这是一种极不健康的生活态度, 且不和逻辑.
+另一种选择是, 把这17 小时看成是一天中的一天, 在这些时间中他是自由的, 没有赚钱的顾虑, 就是一个有私有收入的人, 此时应该活的像个贵族, 像他们一样使用自己的时间.
+ 娱乐网站 娱乐时间的观念一直未有变化(娱乐至死), 胡乱点一些普遍没有价值的数字娱乐信息. 这些娱乐网站有一些共同点: 使用精心雕琢的标题和容易理解的内容, 辅以数学算法打磨, 最大限度吸引你的眼球. 人类心理学中任何可利用的把戏都用于其中. 从标题列为流行, 趋势到醒目的图片, 目的就是吸引住你.
+工作结束后一有时间, 这些文章成为你的主要娱乐. 成为你杀时间的主要工具.
+这些行为是有害的, 它们会损害你抵抗分心事物的能力, 使你在试图深度工作的时候更难集中注意力.
+ 解决之道: 娱乐时间做更多的思考 你应该主动利用自己工作外的时间和精力.</description>
+    </item>
+    
+    <item>
+      <title>just for test</title>
+      <link>/post/just-for-test/</link>
+      <pubDate>Wed, 18 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/just-for-test/</guid>
+      <description>no  Title Contents # how to create a bar plot with ggplot2 library(ggthemes) library(ggplot2) #how to create a barplot with label using ggplot2 package iris %&amp;gt;% group_by(Species) %&amp;gt;% summarise(counts = n()) %&amp;gt;% mutate(Species = fct_reorder(Species, counts)) %&amp;gt;% ggplot(aes(x = Species, y = counts, fill = Species)) + geom_bar(stat = &amp;quot;identity&amp;quot;) + geom_text(aes(label = counts), hjust = 1.6, color = &amp;quot;white&amp;quot;, size = 5) + coord_flip() + theme_minimal() + scale_color_tableau() + scale_fill_tableau() + labs(caption = &amp;quot;figure 01&amp;quot;) + theme( axis.</description>
+    </item>
+    
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>/post/markdown-syntax/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rich Content</title>
+      <link>/post/rich-content/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/rich-content/</guid>
+      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Placeholder Text</title>
+      <link>/post/placeholder-text/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/placeholder-text/</guid>
+      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de
+pectora summo.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Math Typesetting</title>
+      <link>/post/math-typesetting/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/math-typesetting/</guid>
+      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Emoji Support</title>
+      <link>/post/emoji-support/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/emoji-support/</guid>
+      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+Hugo makes use of a variety of open source projects including:
+ https://github.</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>/post/2015-07-23-r-rmarkdown/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2015-07-23-r-rmarkdown/</guid>
+      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+    </item>
+    
+    <item>
+      <title>Search</title>
+      <link>/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/search/</guid>
+      <description>          </description>
+    </item>
+    
+  </channel>
+</rss>
